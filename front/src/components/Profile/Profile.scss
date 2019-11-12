@@ -1,0 +1,22 @@
+.profile-menu_tabs {
+    
+
+    .list-menu {
+        color:#212529;;
+        font-size:1rem;
+        font-weight: 600;
+    }
+
+    .list-group{
+
+        .active {
+            background: #17a2b8;
+            border:none;
+            color:white;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.order-prev {
+    margin-top:40vh;
+
+    .container {
+
+        span {
+            font-size:3rem;
+        }
+    }
+
+    .orderinfo-btn {
+        padding:10px 20px;
+        background: black;
+        border:1px solid black;
+        color:white;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size:14px;
+    
+        &:hover {
+            border:1px solid black;
+            background: #34d264;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+
+    .order-prev {
+        margin-top:45vh;
+    
+        .container {
+    
+            span {
+                font-size:1.5rem;
+            }
+        }
+    }
+   
+}
+

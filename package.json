@@ -1,0 +1,25 @@
+{
+  "name": "runner",
+  "version": "1.0.0",
+  "description": "**Need Node.js v8.1+ in your PC.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend": "npm run dev --prefix server",
+    "frontend": "npm start --prefix front",
+    "start": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OLEKSII-DROZDIUK/eWorld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OLEKSII-DROZDIUK/eWorld/issues"
+  },
+  "homepage": "https://github.com/OLEKSII-DROZDIUK/eWorld#readme",
+  "dependencies": {
+    "concurrently": "^4.1.1"
+  }
+}

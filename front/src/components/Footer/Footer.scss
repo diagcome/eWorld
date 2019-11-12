@@ -1,0 +1,61 @@
+.footer{
+  background: #FFFFFF;
+  &__text-footer{
+    color: #666666;
+  }
+  & h4{
+    font: 700 20px/26px "Open Sans",sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0 0 20px 0;
+    cursor: pointer;
+    &:hover{
+      color:#34d264
+    }
+  }
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+      }
+    }
+  }
+  .about-company{
+    a{
+      color: #666666;
+      transition: color .2s;
+      margin-right: 15px;
+      &:hover{color:#34d264}
+    }
+  }
+  .location{
+    i{font-size: 18px;}
+  }
+  .footer-link{
+    color: #666666;
+    &:hover{
+      color:#34d264
+    }
+  }
+}
+.footer-bottom{
+  background-color: #000000;
+  width: 100%;
+  & h5{
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+  }
+  & img{
+    margin-right: 1rem;
+    cursor: pointer;
+    filter: grayscale(100%);
+    &:hover{
+      filter: grayscale(0%);
+    }
+  }
+}
